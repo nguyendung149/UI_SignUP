@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  background-color: #38d9a9;
+}
+body {
+  width: 930px;
+  margin: 40px auto;
+}
+section {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.border-section {
+  padding: 4px;
+  grid-column: 1/-1;
+  border-bottom: 2px solid #fff;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  background-color: #38d9a9;
+  display: flex;
+  gap: 5px;
+}
+.point {
+  width: 8px;
+  height: 8px;
+  margin-left: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.information-user {
+  font-size: 1rem;
+  color: #099268;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  position: relative;
+}
+.page-icon {
+  width: 24px;
+  height: 24px;
+}
+.page-name {
+  font-size: 2rem;
+  font-weight: 600;
+  /* margin-top: 20px; */
+}
+.row-1 {
+  display: flex;
+  margin: 20px;
+  /* justify-content: space-evenly; */
+}
+
+.sign-in {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+.welcome {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.instruction-text {
+  /* font-size: 1.1rem; */
+  margin-bottom: 36px;
+  letter-spacing: -0.5px;
+}
+form {
+  text-align: left;
+  font-weight: bold;
+}
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+.type {
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 4px;
+  border: 2px solid #ced4da;
+  border-radius: 6px;
+}
+.tick {
+  margin-right: 4px;
+}
+.row-2 {
+  font-size: 0.9rem;
+  display: flex;
+  margin-bottom: 20px;
+}
+.remember-text {
+  display: flex;
+  justify-content: space-between;
+}
+.linked:link,
+.linked:visited {
+  text-decoration: none;
+  color: #099268;
+  font-size: 0.9rem;
+}
+.linked:hover,
+.linked:active {
+  opacity: 0.6;
+}
+.btn-sign-in {
+  width: 100%;
+  padding: 8px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #099268;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.btn-sign-in:hover,
+.btn-sign-in:active {
+  background-color: #20c997;
+}
+.sign-up:link,
+.sign-up:visited {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+}
+.pic-product {
+  width: 100%;
+  border-bottom-right-radius: 10px;
+}
